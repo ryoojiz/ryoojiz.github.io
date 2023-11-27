@@ -1,0 +1,23 @@
+.scrolled {
+  backdrop-filter: blur(5px) opacity(1);
+  -webkit-backdrop-filter: blur(5px) opacity(1);
+  background-color: rgba(0,0,0,0.5)!important;
+  -webkit-transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+  -moz-transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+  transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+.navbar {
+  -webkit-transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1)!important;
+  -moz-transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1)!important;
+  transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1)!important;
+}
+
+.mcbtn {
+  background-color: white;
+  color: var(--bs-primary);
+  -webkit-transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+  -moz-transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+  transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+}
+
