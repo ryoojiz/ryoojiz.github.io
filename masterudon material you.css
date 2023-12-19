@@ -1,0 +1,155 @@
+/* created for glitch-soc ui, compatibility with others not guaranteed */
+button {
+    border-radius: 15px!important;
+}
+.compose-form__highlightable {
+    border-radius: 15px!important;
+    overflow: hidden;
+}
+
+.compose-form__autosuggest-wrapper,
+.autosuggest-textarea__textarea,
+.compose-form__modifiers {
+    background: #2b221f !important;
+    color: white!important
+}
+.compose-form__buttons-wrapper {
+    background: #0002
+}
+.status-direct.status__wrapper-reply::before {
+    background: linear-gradient(to right, #000 0%, #784f16 15%, #e40303 20%, #ff8c00 30%, #ffed00 40%, #008026 50%, #004dff 60%, #750787 70%, #f6a8b7 85%, #5ccefa 100%);
+    filter: blur(40px);
+    height: 20px;
+    width:100%;
+    max-width: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.primary {
+    background-color: rgb(117, 37, 1)!important;
+}
+a:link {
+    color: #f2e2a7!important;
+}
+a:visited {
+    color: #ffdbcf!important;
+}
+.account__section-headline {
+    background: #201a18; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.loading-bar {
+    filter: blur(10px);
+    background: linear-gradient(to right, #000 0%, #784f16 15%, #e40303 20%, #ff8c00 30%, #ffed00 40%, #008026 50%, #004dff 60%, #750787 70%, #f6a8b7 85%, #5ccefa 100%);
+}
+.account__header__account-note__content {
+    background: #201a18;
+}
+body {
+    background-color: #201a18!important;
+    font-family: Familjen Grotesk;
+}
+.error-column {
+    background: #2b221f;
+}
+.dismissable-banner {
+    background: rgba(117, 37, 1, .15);
+    border: 2px solid #a08d861f
+}
+.search__input, .account__header__bar {
+    background: #2b221f;
+    border-radius: 15px;
+}
+.column-header__wrapper.active::before {
+    width: 100%;
+    background: radial-gradient(ellipse,rgba(253, 223, 223,.05) 0,rgba(99,100,255,0) 80%);
+}
+.compose-form__autosuggest-wrapper {
+    background-color: #2b221f!important; 
+}
+.column-header {
+    background:none;
+    color: #ffe7e7;
+}
+.account__section-headline a.active::before {
+    background: #f2e2a7;
+    width: 85%;
+    left: 7.5%;
+}
+.account__action-bar__tab.active {
+    border-bottom: 3px solid #f2e2a7;
+}
+.column-header__button, .column-header__back-button {
+    background: #ffffff0f;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #ffffff0d;
+    color: #ffe7e7;
+}
+.status[data-featured="true"] {
+    background-color: #2b221f;
+}
+.status__prepend {
+    color: #2b221f;
+}
+.status__content::after {
+    background: linear-gradient(#201a182b,#201a18)!important;
+    backdrop-filter: blur(1px)
+}
+.column-header__icon {
+    color: #fff!important;
+}
+.column-header__wrapper.active {
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1)!important;
+}
+.status {
+    border-bottom: 2px solid #a08d861f;
+}
+
+.navigation-panel hr {
+    border-top: 1px solid #a08d861f;
+}
+
+.modal-root__overlay{
+    backdrop-filter: blur(10px) grayscale()
+}
+.dropdown-menu__separator {
+   border-bottom: 1px solid #a08d861f; 
+}
+.spoiler-button__overlay__label {
+    transition: background-color 0.4s;
+    width: 90%;
+    border: 2px solid rgba(255,255,255,0.6)
+}
+.tabs-bar__wrapper {
+    background: #2b221fa8;
+    backdrop-filter: blur(10px) grayscale();
+}
+.dropdown-menu {
+    background: #2b221fa8;
+    backdrop-filter: blur(10px) grayscale();
+    border: 2px solid #a08d861f;
+}
+.detailed-status, .status-direct {
+    border-top: 2px solid #a08d861f;
+    overflow: hidden;
+    background: #2b221f!important;
+}
+.detailed-status__action-bar {
+    border-top: 2px solid #a08d861f;
+    border-bottom: 2px solid #a08d861f;
+    background: #2b221f!important;
+}
+.scrollable {
+    border-right: 2px solid #a08d861f;
+    border-left: 2px solid #a08d861f;
+    background-color: #201a18!important;
+}
+.column-link--transparent.active {
+    color: #fddfdf
+}
+.column-link {
+    color: #bfbfbf
+}
